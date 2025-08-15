@@ -1,0 +1,17 @@
+nome = str(input("Digite seu nome: "))
+idade = int(input("Digite sua idade: "))
+altura = float(input("Digite sua altura (em metros): "))
+profissao = str(input("Digite sua profissão: "))
+cidade = str(input("Digite sua cidade: "))
+hobby = str(input("Digite seu hobby: "))
+pet = int(input("Quantos pets você tem? "))
+
+# perfil
+print("Perfil da Pessoa:")
+print("Nome:", nome)
+print("Idade:", idade, 'anos')
+print("Altura:", altura, "m")
+print("Profissão:", profissao)
+print("Cidade:", cidade)
+print("Hobby:", hobby)
+print("Pets:", pet)
