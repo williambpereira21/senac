@@ -1,0 +1,10 @@
+
+
+# Meu primeiro programa escrito em Python…​
+
+MyName = "Ednei P. de Melo"​
+
+
+MyHeigh = 1.67​
+
+MyAge = 18
