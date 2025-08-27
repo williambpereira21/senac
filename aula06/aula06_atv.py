@@ -1,10 +1,11 @@
 #1 atv
-print('digite um valor para ver a tabuada dele:')
-valor=int(input())
-for i in range(1,11):        # a ','  estipula de  1 até 11 vai ser refeito o código
-    resultado=valor*i
-print(f'valor de {valor} ,x',{i},'é:',{resultado})
- 
+print('Digite um valor para ver a tabuada dele:')
+valor = int(input())
+
+for i in range(1, 11):  # De 1 até 10 (inclusive)
+    resultado = valor * i
+    print(f'Valor de {valor} x {i} é: {resultado}')
+
  #2 atv
 print('qual o melhor clube de futebol do brasil,digite sua resposta:')
 melhor='flamengo' 
@@ -33,7 +34,7 @@ while b <= 2000:
     print(b)  
     proximo = a + b
     a=b
-    b=proximo
+    b=proximo                                                      
 
    
    
