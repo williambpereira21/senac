@@ -15,3 +15,5 @@ def conferir(idade):
 filmes_maior='scarface,gente grande e halo'
 filmes_menor='dino-trem,família dinossauro e arnold'
 idade=int(input('digite sua idade :'))
+apresentar()
+conferir(idade)
