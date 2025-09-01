@@ -15,7 +15,7 @@ def lista_de_carros():
     print("4. Ford Ka - R$ 40.000")
     print("5. Jeep Compass - R$ 150.000")
 
-# Início do programa
+
 idade = int(input("Digite sua idade: "))
 
 if idade < 18:
