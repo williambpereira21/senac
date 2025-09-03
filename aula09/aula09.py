@@ -72,3 +72,50 @@ print(sorted(palavras))
 print('o somatório de número:',sum (numeros))
 print('qual é o maior valor?',max (numeros))
 print('qual é a primeira palavra?',min(palavras))
+
+
+
+#outro exemplo
+
+inss = ['maria','manoel','josé','isabela']
+print('eis, a fila do inss:',inss)
+
+novo=input('insira mais uma pessoa:')
+inss.append(novo)
+print('conferindo a nova lista',inss)
+
+print('vou tirar a última pessoa desta lista...')
+especial=inss.pop()
+
+print('agora,vou colocá-la na frente de todos!')
+inss.insert(0,especial)
+print('conferindo a lista:',inss)
+
+print('maria não gostou e reclamou...')
+inss.remove('maria')
+print('e agora, ela saiu "pê da vida"',inss)
+
+print('para  não ter mais reclamação,vamos atender...')
+inss.sort()
+print('...em ordem alfabética',inss)
+print('onde está esta nova pessoa chamada',especial,'?')
+print('ela agora ficou na posição',inss.index(especial)+1,"!")
+
+#outro exemplo
+
+print('vou almoçar em um restaurante a quilo!')
+
+
+original=['arroz','feijão','batata','alface','frango']
+print('eis,a minha comida',original)
+derivada=original[:]
+print('meu amigo irá comer também:',derivada)
+print('vou alterar as opções  sem ele ver...')
+original.remove('arroz')
+original.remove('feijão')
+original.remove('alface')
+original.append('picanha')
+original.append('linguiça')
+
+print('amiguinho,me mostre o que você vai comer?')
+print('claro ! dá uma conferida',derivada)
